@@ -1,0 +1,25 @@
+﻿body {
+    background-repeat:no-repeat;
+    font-family: Segoe UI,  Helvetica, sans-serif;
+    color:#666;
+    font-size:1em;
+    font-weight:normal;  
+	min-height:100%;
+	background-size:100% 125%;
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #EFB30E));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #EFB30E 100%);
+}

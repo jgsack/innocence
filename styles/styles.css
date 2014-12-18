@@ -1,0 +1,253 @@
+﻿body 
+{   
+    background-repeat:repeat;
+    font-family: Segoe UI,  Helvetica, sans-serif;
+    color:#666;
+    font-size:1em;
+    font-weight:normal;  
+	min-height:100%;
+	background-size:100% 125%;
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #EFB30E));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #EFB30E 100%);
+	
+}
+
+a
+{
+    color:inherit;
+     text-decoration:none;
+}
+
+h1
+{
+    font-size:1.5em;
+    text-align:center;
+    line-height:30%
+}
+
+
+h2
+{
+    font-size:1em;
+    /*font-variant:small-caps;*/
+    text-align:center;
+    line-height:30%
+}
+h3
+{
+    font-size: 1em;
+    font-weight:bold;
+    margin-left:20px;
+    /*color:#465;    */
+}
+
+h4
+{
+    font-style:italic;
+    position:relative;
+    top:-20px;
+    text-align:right;    
+    padding-right:60px;
+}
+
+dt
+{
+    font-weight:bold;
+}
+
+dd
+{
+    position:relative;
+    left:30px;
+}
+
+blockquote
+{
+    /*color: Black;*/
+    /*font-family:Calibri, Helvetica, Sans-Serif;*/
+}
+
+.tabs > div 
+{
+    background-image:url("bg.png");
+    background-repeat:no-repeat;
+    padding:10px 10px 0px 5px;
+    
+    height:590px; 
+} 
+
+.tabs > div > img  /*profile image*/
+{
+     float:left;
+     width:225px;
+     margin-right:20px;
+} 
+.centerContent
+{
+    float:left;
+    width:420px;
+   
+}
+
+.centerContent > p
+{
+     font-size:.8em;
+}
+
+.accordianContainer
+{
+    float:left;
+    width:690px;
+    height:540px;
+   
+ }
+
+
+.centerContent p
+{
+    padding:0px 20px;
+    /*color:#465;    */
+}
+
+#header > h1
+{
+   font-size:1em;
+   font-weight:normal;
+}
+#logo
+{
+    /*display:block;
+    border:1px solid gold;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;  */  
+}
+#page
+{ 
+    margin-left:auto;
+    margin-right:auto;
+   /* margin-top:20px;*/
+    width:950px;  
+    
+}
+#headertitle
+{
+     padding-left:20px;   
+}
+
+#cover
+{
+    margin-top:0px;
+}
+
+#left
+{
+    float:left;
+    width:150px;
+    background-color:Green;
+}
+
+.right
+{
+    float:right; 
+   
+}
+
+.right p
+{
+   font-size:.8em;
+   font-family:Calibri, Arial, Helvetica, Sans-Serif;
+   padding:0px 20px 10px 30px;
+}
+
+ul.tabNavigation {
+	margin: 0px 0px 0px 25px;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/	
+	width: 100%;
+}
+ul.tabNavigation li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/	
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;	
+}
+ul.tabNavigation li a {
+	text-decoration: none;
+	color:#888;
+	display: block;	
+	padding: 0 15px;
+	/*border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabNavigation li a:hover {
+	color:#55c;
+}
+ul.tabNavigation li a.selected, ul.tabNavigation li a.selected:hover  
+{ /*--Makes sure that the active tab does not listen to the hover properties--*/
+    background-image:url("tabbg.png");
+}
+
+div.accordianContainer > p
+{
+   padding:0px 20px 10px 30px;
+   margin-left:20px;
+   font-size:.8em;
+}
+
+#tile
+{
+    margin:80px 0px 0px 15px;
+    width:250px;
+}
+
+.accordion p
+{
+    font-size:.8em;    
+}
+
+.accordion h3
+{
+     font-size:.8em;        
+}
+
+#contactus
+{
+    margin:80px 50px 10px 250px;
+}
+
+#bookContent p
+{
+    font-size:.8em;
+}
+
+#links div
+{
+    position:relative;
+    top:100px;
+    left:80px;
+}
+.lmargin100 {
+	margin-left: 100px;
+}
+
