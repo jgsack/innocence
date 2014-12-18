@@ -1,18 +1,18 @@
 ﻿
 
-var innocence = angular.module('innocence', ['ngRoute'], ['ngMaterial'])
-.config(['$routeProvider',
-    function($routeProvider) {
-        $routeProvider.
-          when('/home', {
-            templateUrl: 'partials/home.html',
-            controller: 'HomeCtrl'
-          }).
-          otherwise({ redirectTo: '/home' });
-    }]);
-  innocence.controller('HomeCtrl', ['$scope', function ($scope) {
-    $scope.header = "Have you ever read such a story?";
-  }]);
+var innocence = angular.module('innocence', ['ngMaterial'])
+// .config(['$routeProvider',
+//     function($routeProvider) {
+//         $routeProvider.
+//           when('/home', {
+//             templateUrl: 'partials/home.html',
+//             controller: 'HomeCtrl'
+//           }).
+//           otherwise({ redirectTo: '/home' });
+//     }]);
+innocence.controller('HomeCtrl', ['$scope', function ($scope) {
+  $scope.header = "Have you ever read such a story?";
+}]);
 
 
 
@@ -20,10 +20,10 @@ var innocence = angular.module('innocence', ['ngRoute'], ['ngMaterial'])
 
 
 
+/*
 
 
 
-  
 //**************************************************OLD
 
 document.write('<style type="text/css">body{display:none}</style>');
@@ -99,4 +99,4 @@ $(document).ready(function () {
     });
 
 });   
-    
+    */
