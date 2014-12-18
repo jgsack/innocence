@@ -1,6 +1,6 @@
 ﻿
 
-var innocence = angular.module('innocence', ['ngMaterial'])
+var innocence = angular.module('innocence', ['ngMaterial']);
 // .config(['$routeProvider',
 //     function($routeProvider) {
 //         $routeProvider.
