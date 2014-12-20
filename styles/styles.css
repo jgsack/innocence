@@ -6,7 +6,7 @@
     font-size:1em;
     font-weight:normal;  
 	min-height:100%;
-	background-size:100% 125%;
+	background-size:100%;
 	background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #EFB30E 100%);
 
 	/* Mozilla Firefox */ 
@@ -81,7 +81,7 @@ blockquote
     /*font-family:Calibri, Helvetica, Sans-Serif;*/
 }
 
-.tabs > div 
+/*.tabs > div 
 {
     background-image:url("bg.png");
     background-repeat:no-repeat;
@@ -90,7 +90,7 @@ blockquote
     height:590px; 
 } 
 
-.tabs > div > img  /*profile image*/
+.tabs > div > img  /*profile image*//*
 {
      float:left;
      width:225px;
@@ -122,7 +122,7 @@ blockquote
     padding:0px 20px;
     /*color:#465;    */
 }
-
+*/
 #header > h1
 {
    font-size:1em;
@@ -177,7 +177,7 @@ blockquote
 ul.tabNavigation {
 	margin: 0px 0px 0px 25px;
 	padding: 0;
-	float: left;
+	/*float: left;*/
 	list-style: none;
 	height: 32px; /*--Set height of tabs--*/	
 	width: 100%;
