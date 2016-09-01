@@ -3,7 +3,7 @@
     background-repeat:repeat;
     font-family: Segoe UI,  Helvetica, sans-serif;
     color:#666;
-    font-size:1em;
+    /*font-size:1.2em;*/ /*looks different with bootstrap*/
     font-weight:normal;  
 	min-height:100%;
 	background-size:100%;
@@ -60,7 +60,7 @@ h4
     font-style:italic;
     position:relative;
     top:-20px;
-    text-align:right;    
+    /*text-align:right;*/    
     padding-right:60px;
 }
 
@@ -141,8 +141,8 @@ blockquote
     margin-left:auto;
     margin-right:auto;
    /* margin-top:20px;*/
-    width:950px;  
-    
+    width:950px;
+
 }
 #headertitle
 {
@@ -174,15 +174,15 @@ blockquote
    padding:0px 20px 10px 30px;
 }
 
-ul.tabNavigation {
+#tabNavigation {
 	margin: 0px 0px 0px 25px;
 	padding: 0;
 	/*float: left;*/
 	list-style: none;
-	height: 32px; /*--Set height of tabs--*/	
+	height: 31px; /*--Set height of tabs--*/	
 	width: 100%;
 }
-ul.tabNavigation li {
+#tabNavigation li {
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -192,7 +192,7 @@ ul.tabNavigation li {
 	overflow: hidden;
 	position: relative;	
 }
-ul.tabNavigation li a {
+#tabNavigation li a {
 	text-decoration: none;
 	color:#888;
 	display: block;	
@@ -200,14 +200,18 @@ ul.tabNavigation li a {
 	/*border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
 	outline: none;
 }
-ul.tabNavigation li a:hover {
+#tabNavigation li a:hover {
 	color:#55c;
-}
-ul.tabNavigation li a.selected, ul.tabNavigation li a.selected:hover  
-{ /*--Makes sure that the active tab does not listen to the hover properties--*/
     background-image:url("tabbg.png");
 }
-
+#tabNavigation li a.active {
+    background-image:url("tabbg.png");
+}
+/*#tabNavigation li a.selected, ul#tabNavigation li a.selected:hover  
+{ --Makes sure that the active tab does not listen to the hover properties--
+    background-image:url("tabbg.png") !important;
+}
+*/
 div.accordianContainer > p
 {
    padding:0px 20px 10px 30px;
@@ -221,7 +225,7 @@ div.accordianContainer > p
     width:250px;
 }
 
-.accordion p
+/*.accordion p
 {
     font-size:.8em;    
 }
@@ -229,11 +233,11 @@ div.accordianContainer > p
 .accordion h3
 {
      font-size:.8em;        
-}
+}*/
 
 #contactus
 {
-    margin:80px 50px 10px 250px;
+    margin:40px 50px 20px 250px;
 }
 
 #bookContent p
@@ -250,4 +254,10 @@ div.accordianContainer > p
 .lmargin100 {
 	margin-left: 100px;
 }
-
+/*to fix strange alignment in accordion:*/
+.panel-heading {
+    padding-top: 30px;
+}
+.carousel-indicators {bottom: -10px;}
+.tabs {height: 600px;}
+.presentations {margin-left:300px;}
