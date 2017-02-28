@@ -1,6 +1,6 @@
-<div ng-controller="HomeCtrl" id="home" layout="row" layout-align="start center">
-  <img alt="Santosha Tantra profile" src="Images/profile.jpg" />    
-  <div flex>
+<div ng-controller="HomeController" layout="row" layout-align="start center">
+  <img alt="Santosha Tantra profile" src="Images/profile.jpg" class="profile" />    
+  <div style="width:360px;margin-left:30px;font-size:0.8em;">
       <img  alt="The Innocence of Her Form" src="Images/HomeTitle360.png" />
     <h3>{{header}}</h3>
     This is the autobiography of a woman Realizer, Santosha Tantra. It clearly 
@@ -8,17 +8,20 @@
     by Avatar Adi Da Samraj. It is an inspiration for all and a living 
     demonstration of Adi Da's Work and Its authenticity. 
     <ul>
-    <li><a href="InnocenceOfHerForm.pdf">Download the free eBook in pdf form (6.07 MB)</a></li>
-    <li style="cursor:pointer" id="paperback">Get a paperback version</li>
+    <li><a href="pdf/InnocenceOfHerForm.pdf">Download the free eBook in pdf form (6.07 MB)</a></li>
+    <li style="cursor:pointer" id="paperback"><a ng-class="{ active: isActive('/book')}" href="#/book" id="getbook">Get a paperback version</a></li>
     </ul>    
   </div> 
-  <div flex>    
-    <img  alt="Book: The Innocence of Her Form" id="cover" src="Images/Cover280b.jpg" />
+  <div style="margin-left:20px;">    
+    <img  alt="Book: The Innocence of Her Form" id="cover" src="Images/Cover280b.jpg" width="225px" />
     <br /><br />
     <div style="font-size:0.8em;color:#224466">
-     New Story added Oct 28, 2014:<br /> 
-     <a style="color:green;" href="TripToFiji.pdf">I Am She, Durga: The Trip To Fiji
-     </br>by Susan Shaw</a><br /> 
+     <a ng-class="{ active: isActive('/contact')}" href="#/adi_da">New story by Santosha Tantra <br />
+      
+     "The Trailblazers"<br />      
+     posted January 18, 2017    </a>
+  <!-- <a style="color:#5E2612; text-decoration:none;" target="blank_" href="pdf/WorstEgoTrips.pdf"> -->
+  <i></i></a> 
     </div> 
   </div> 
 </div>
