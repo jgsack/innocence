@@ -97,7 +97,7 @@
     }]);
 
     function buildGallery(id, count) {
-        var path = "art/art" + id + "/art"
+        var path = "art/Art" + id + "/art"
         if (id === "bio_pics/") { path = id }  //the one exception
         var slides = []
        for (var x = 1; x <= count; x++){
