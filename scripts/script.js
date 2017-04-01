@@ -6,6 +6,8 @@
     }])
     .controller('SchoolController', ['$scope', function ($scope) {      
     }])  
+    .controller('StoriesController', ['$scope', function ($scope) {      
+    }])  
     .controller('WithController', ['$scope', function ($scope) {      
     }])    
     .controller('NavController', ['$scope', '$location', function ($scope, $location) { 
@@ -77,6 +79,10 @@
                 templateUrl: 'partials/bio_pics.html',
                 controller: 'Bio_PicsController'
               }).
+              when('/stories', {
+                templateUrl: 'partials/stories.html',
+                controller: 'StoriesController'
+              }).
               when('/adi_da', {
                 templateUrl: 'partials/adida.html',
                 controller: 'AdiDaController'
@@ -100,7 +106,7 @@
         var path = "art/Art" + id + "/art"
         if (id === "bio_pics/") { path = id }  //the one exception
         var slides = []
-       for (var x = 1; x <= count; x++){
+        for (var x = 1; x <= count; x++){
         var img = {}
         img.image = path + x + ".jpg"
         slides.push(img)        
