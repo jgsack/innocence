@@ -16,9 +16,13 @@
         return viewLocation === $location.path()
        }
        $scope.galleries = [{name: "latest gallery",
+                             id: 11,
+                             count: 1
+                            },
+                            {name: "gallery 10",
                              id: 10,
                              count: 7
-                             },
+                            },
                             {name: "gallery 9",
                              id: 9,
                              count: 8
