@@ -20,7 +20,7 @@
                              count: 2
                             },
                             {name: "gallery 12",
-                             id: 11,
+                             id: 12,
                              count: 5
                             },
                             {name: "gallery 11",
