@@ -62,7 +62,7 @@
     .controller('ArtController', ['$scope', function ($scope) {                             
     }])    
     .controller('Bio_PicsController', ['$scope', function ($scope) {
-      $scope.slides = buildGallery("bio_pics/", 31) 
+      $scope.slides = buildGallery("bio_pics/", 20) 
     }])    
     .config(['$routeProvider',
         function($routeProvider) {
@@ -120,7 +120,13 @@
         var slides = []
         for (var x = 1; x <= count; x++){
         var img = {}
-        img.image = path + x + ".jpg"
+        if (id === "bio_pics/") { 
+          var adj = 11 + x
+          img.image = path + adj + ".jpg"
+        }
+        else{
+          img.image = path + x + ".jpg"
+        }        
         slides.push(img)        
        }
        return slides
