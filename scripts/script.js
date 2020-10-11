@@ -17,7 +17,7 @@
        }
        $scope.galleries = [{name: "latest gallery",
                              id: 14,
-                             count: 42
+                             count: 41
                             },
                             {name: "latest gallery",
                              id: 13,
