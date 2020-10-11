@@ -19,7 +19,7 @@
                              id: 14,
                              count: 41
                             },
-                            {name: "latest gallery",
+                            {name: "gallery 13",
                              id: 13,
                              count: 2
                             },
