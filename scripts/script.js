@@ -5,6 +5,8 @@
       $scope.header = "Life as a Realizer";
     }])
     .controller('SchoolController', ['$scope', function ($scope) {      
+    }]) 
+    .controller('VideoController', ['$scope', function ($scope) {      
     }])  
     .controller('StoriesController', ['$scope', function ($scope) {      
     }])  
